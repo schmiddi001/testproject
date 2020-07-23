@@ -1,0 +1,6 @@
+## main playbook
+- name: main playbook
+  hosts: localhost
+  tasks:
+    - include_role: 
+        name: testrole
